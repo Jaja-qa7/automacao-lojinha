@@ -20,6 +20,40 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 -   **Visual Studio Code** [Baixar Visual Studio Code](https://code.visualstudio.com/Download)  (Nesse site, você encontrará versões para diferentes sistemas operacionais (Windows, macOS e Linux)): Um editor de código-fonte amplamente utilizado para o desenvolvimento de software.
 - **[Cypress](https://www.cypress.io/)**: Uma ferramenta poderosa para testes end-to-end, que permite a automação de testes para aplicações web.
 
+## Como baixar e visualizar o projeto no Visual Studio Code
+#### 1. Obtenha o link do repositório GitHub
+
+1.  Acesse o repositório onde o código está hospedado no GitHub.
+2.  No canto superior direito da página do repositório, clique no botão **Code** e copie o link HTTPS.
+#### 2. Clonar o repositório do GitHub
+
+Abra o terminal do seu sistema (ou Git Bash, no caso de Windows). Navegue até o diretório onde deseja salvar o projeto usando o seguinte comando:
+
+`cd /caminho/para/o/diretorio` 
+
+Substitua `/caminho/para/o/diretorio` pela localização exata onde você quer salvar o repositório clonado.
+
+Execute o comando abaixo para clonar o repositório:
+
+git clone https://github.com/usuario/nome-do-repositorio.git
+
+Substitua usuário pelo nome do usuário do GitHub e nome-do-repositorio pelo nome do repositório que deseja clonar
+#### 3. Abrir o projeto no Visual Studio Code
+Após clonar o repositório, abra o Visual Studio Code.
+No menu principal, clique em **File (Arquivo) > Open Folder (Abrir Pasta).**
+Navegue até o diretório onde o repositório foi clonado e selecione a pasta do projeto.
+Clique em **Open (Abrir)** para carregar o projeto no Visual Studio Code.
+#### 4. Instalar as dependências do projeto
+Abra o terminal integrado do Visual Studio Code. Você pode fazer isso clicando em **Terminal > New Terminal** no menu superior.
+Certifique-se de que o terminal está no diretório do projeto e execute o seguinte comando para instalar todas as dependências necessárias:
+
+`npm install` 
+
+Isso vai baixar todas as dependências listadas no arquivo package.json.
+#### 5. Executar o projeto
+
+Para rodar os testes automatizados ou executar o projeto no Visual Studio Code, siga as instruções da seção **Executando os Testes** descrita logo mais abaixo.
+
 ## Testes Automatizados de Login na Lojinha
 
 Este repositório contém testes automatizados utilizando [Cypress](https://www.cypress.io/) para a funcionalidade de login na aplicação Lojinha. O objetivo é validar o comportamento do sistema ao tentar realizar login com credenciais válidas e inválidas.
